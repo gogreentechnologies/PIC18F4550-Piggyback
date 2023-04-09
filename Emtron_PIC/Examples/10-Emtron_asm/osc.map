@@ -1,0 +1,57 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Thu Feb 19 19:11:01 2015
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000044
+     .config_300000_OSC.O    romdata   0x300000    program   0x000001
+     .config_300001_OSC.O    romdata   0x300001    program   0x000001
+     .config_300002_OSC.O    romdata   0x300002    program   0x000001
+     .config_300003_OSC.O    romdata   0x300003    program   0x000001
+     .config_300005_OSC.O    romdata   0x300005    program   0x000001
+     .config_300006_OSC.O    romdata   0x300006    program   0x000001
+     .config_300008_OSC.O    romdata   0x300008    program   0x000001
+     .config_300009_OSC.O    romdata   0x300009    program   0x000001
+     .config_30000A_OSC.O    romdata   0x30000a    program   0x000001
+     .config_30000B_OSC.O    romdata   0x30000b    program   0x000001
+     .config_30000C_OSC.O    romdata   0x30000c    program   0x000001
+     .config_30000D_OSC.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000043      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            80 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     INIT   0x00002a    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                 KEYPRESS   0x00001e    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                    MLOOP   0x00000e    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                    START   0x000002    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                     WAIT   0x000034    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                    WLOOP   0x00003a    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000002    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                    MLOOP   0x00000e    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                 KEYPRESS   0x00001e    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                     INIT   0x00002a    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                     WAIT   0x000034    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+                    WLOOP   0x00003a    program     static C:\Users\ysrao\Desktop\osc\osc.asm
+
+

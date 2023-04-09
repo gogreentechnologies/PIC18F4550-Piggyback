@@ -1,0 +1,5 @@
+Install the following:
+
+1. windows installer
+2. NetFx20SP1
+3. vcredist_x86

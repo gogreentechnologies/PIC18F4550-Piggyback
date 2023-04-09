@@ -1,0 +1,4 @@
+Warning[2073] E:\Passport\2_D_Drive_Embedded_PC\7_EmbeddedLAb20.com\Kits\Emtron_PIC_Kit\Emtron_PIC\Examples\5-Emtron_ADC-2\display_string.c 172 : null-terminated initializer string too long
+Warning[2058] E:\Passport\2_D_Drive_Embedded_PC\7_EmbeddedLAb20.com\Kits\Emtron_PIC_Kit\Emtron_PIC\Examples\5-Emtron_ADC-2\display_string.c 175 : call of function without prototype
+Warning[2058] E:\Passport\2_D_Drive_Embedded_PC\7_EmbeddedLAb20.com\Kits\Emtron_PIC_Kit\Emtron_PIC\Examples\5-Emtron_ADC-2\display_string.c 176 : call of function without prototype
+Warning[2054] E:\Passport\2_D_Drive_Embedded_PC\7_EmbeddedLAb20.com\Kits\Emtron_PIC_Kit\Emtron_PIC\Examples\5-Emtron_ADC-2\display_string.c 212 : suspicious pointer conversion

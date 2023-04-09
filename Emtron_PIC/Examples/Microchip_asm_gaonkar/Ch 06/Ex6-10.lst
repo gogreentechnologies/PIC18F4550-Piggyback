@@ -1,0 +1,30 @@
+---------------------------------------------
+PIC ASSEMBLER LISTING
+Line    Address Opcode  Instruction
+---------------------------------------------
+0001    000000          ;Line removed by MPASMWIN preprocessor: 	Title "Ex6-10 Multiplication"
+0002    000000          ;Line removed by MPASMWIN preprocessor: 	List p=18F452
+0003    000000          ;Line removed by MPASMWIN preprocessor: 	#include <p18F452.inc>	;This is a header file
+0004    000000          
+0005    000000          REG10	EQU	0x10
+0006    000000          REG11	EQU	0x11
+0007    000000          
+0008    000000          		ORG		00
+0009    000000  EF10    		GOTO 	MAIN
+0009    000002  F000
+0010    000004          
+0011    000004          		ORG		0x020 		;Begin assembly at 0020H
+0012    000020  0E81    MAIN:	MOVLW	0x81
+0013    000022  0D04    		MULLW 	0x04
+0014    000024  CFF3    		MOVFF	PRODL, REG10
+0014    000026  F010
+0015    000028  CFF4    		MOVFF	PRODH, REG11
+0015    00002A  F011
+0016    00002C          		END
+0017    00002C          
+0018    00002C          
+0019    00002C          
+0020    00002C          
+0021    00002C          
+---------------------------------------------
+Number of errors = 0

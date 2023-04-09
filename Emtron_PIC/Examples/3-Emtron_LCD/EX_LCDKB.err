@@ -1,0 +1,2 @@
+Error[1027] C:\Program Files\Microchip\Third Party\PICC\Examples\EX_LCDKB.C 44 : unable to locate 'lcd.c'
+Error[1027] C:\Program Files\Microchip\Third Party\PICC\Examples\EX_LCDKB.C 45 : unable to locate 'kbd.c'
